@@ -14,22 +14,9 @@
 		D40750EC1910C1C6007E327E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40750EB1910C1C6007E327E /* main.m */; };
 		D40750F01910C1C6007E327E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40750EF1910C1C6007E327E /* AppDelegate.m */; };
 		D40750F21910C1C6007E327E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40750F11910C1C6007E327E /* Images.xcassets */; };
-		D40750F91910C1C6007E327E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40750F81910C1C6007E327E /* XCTest.framework */; };
-		D40750FA1910C1C6007E327E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40750DF1910C1C5007E327E /* Foundation.framework */; };
-		D40750FB1910C1C6007E327E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40750E31910C1C6007E327E /* UIKit.framework */; };
-		D40751031910C1C6007E327E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D40751011910C1C6007E327E /* InfoPlist.strings */; };
-		D40751051910C1C6007E327E /* HorizontalTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D40751041910C1C6007E327E /* HorizontalTableViewTests.m */; };
+		D40751101910C1E1007E327E /* HZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D407510F1910C1E1007E327E /* HZTableView.m */; };
+		D40751131910C1F9007E327E /* HZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40751121910C1F9007E327E /* HZViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D40750FC1910C1C6007E327E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D40750D41910C1C5007E327E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D40750DB1910C1C5007E327E;
-			remoteInfo = HorizontalTableView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D40750DC1910C1C5007E327E /* HorizontalTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +30,11 @@
 		D40750EE1910C1C6007E327E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D40750EF1910C1C6007E327E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D40750F11910C1C6007E327E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D40750F71910C1C6007E327E /* HorizontalTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40750F81910C1C6007E327E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D40751001910C1C6007E327E /* HorizontalTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalTableViewTests-Info.plist"; sourceTree = "<group>"; };
-		D40751021910C1C6007E327E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D40751041910C1C6007E327E /* HorizontalTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableViewTests.m; sourceTree = "<group>"; };
+		D407510E1910C1E1007E327E /* HZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTableView.h; sourceTree = "<group>"; };
+		D407510F1910C1E1007E327E /* HZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTableView.m; sourceTree = "<group>"; };
+		D40751111910C1F9007E327E /* HZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZViewController.h; sourceTree = "<group>"; };
+		D40751121910C1F9007E327E /* HZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,24 +48,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40750F41910C1C6007E327E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40750F91910C1C6007E327E /* XCTest.framework in Frameworks */,
-				D40750FB1910C1C6007E327E /* UIKit.framework in Frameworks */,
-				D40750FA1910C1C6007E327E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D40750D31910C1C5007E327E = {
 			isa = PBXGroup;
 			children = (
+				D407510E1910C1E1007E327E /* HZTableView.h */,
+				D407510F1910C1E1007E327E /* HZTableView.m */,
 				D40750E51910C1C6007E327E /* HorizontalTableView */,
-				D40750FE1910C1C6007E327E /* HorizontalTableViewTests */,
 				D40750DE1910C1C5007E327E /* Frameworks */,
 				D40750DD1910C1C5007E327E /* Products */,
 			);
@@ -88,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D40750DC1910C1C5007E327E /* HorizontalTableView.app */,
-				D40750F71910C1C6007E327E /* HorizontalTableViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +86,8 @@
 			children = (
 				D40750EE1910C1C6007E327E /* AppDelegate.h */,
 				D40750EF1910C1C6007E327E /* AppDelegate.m */,
+				D40751111910C1F9007E327E /* HZViewController.h */,
+				D40751121910C1F9007E327E /* HZViewController.m */,
 				D40750F11910C1C6007E327E /* Images.xcassets */,
 				D40750E61910C1C6007E327E /* Supporting Files */,
 			);
@@ -122,24 +101,6 @@
 				D40750E81910C1C6007E327E /* InfoPlist.strings */,
 				D40750EB1910C1C6007E327E /* main.m */,
 				D40750ED1910C1C6007E327E /* HorizontalTableView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D40750FE1910C1C6007E327E /* HorizontalTableViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				D40751041910C1C6007E327E /* HorizontalTableViewTests.m */,
-				D40750FF1910C1C6007E327E /* Supporting Files */,
-			);
-			path = HorizontalTableViewTests;
-			sourceTree = "<group>";
-		};
-		D40750FF1910C1C6007E327E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D40751001910C1C6007E327E /* HorizontalTableViewTests-Info.plist */,
-				D40751011910C1C6007E327E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +125,6 @@
 			productReference = D40750DC1910C1C5007E327E /* HorizontalTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D40750F61910C1C6007E327E /* HorizontalTableViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D407510B1910C1C6007E327E /* Build configuration list for PBXNativeTarget "HorizontalTableViewTests" */;
-			buildPhases = (
-				D40750F31910C1C6007E327E /* Sources */,
-				D40750F41910C1C6007E327E /* Frameworks */,
-				D40750F51910C1C6007E327E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D40750FD1910C1C6007E327E /* PBXTargetDependency */,
-			);
-			name = HorizontalTableViewTests;
-			productName = HorizontalTableViewTests;
-			productReference = D40750F71910C1C6007E327E /* HorizontalTableViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +133,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Smartisan;
-				TargetAttributes = {
-					D40750F61910C1C6007E327E = {
-						TestTargetID = D40750DB1910C1C5007E327E;
-					};
-				};
 			};
 			buildConfigurationList = D40750D71910C1C5007E327E /* Build configuration list for PBXProject "HorizontalTableView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				D40750DB1910C1C5007E327E /* HorizontalTableView */,
-				D40750F61910C1C6007E327E /* HorizontalTableViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,14 +161,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40750F51910C1C6007E327E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40751031910C1C6007E327E /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,42 +168,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40751101910C1E1007E327E /* HZTableView.m in Sources */,
 				D40750F01910C1C6007E327E /* AppDelegate.m in Sources */,
+				D40751131910C1F9007E327E /* HZViewController.m in Sources */,
 				D40750EC1910C1C6007E327E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40750F31910C1C6007E327E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40751051910C1C6007E327E /* HorizontalTableViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D40750FD1910C1C6007E327E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D40750DB1910C1C5007E327E /* HorizontalTableView */;
-			targetProxy = D40750FC1910C1C6007E327E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D40750E81910C1C6007E327E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D40750E91910C1C6007E327E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D40751011910C1C6007E327E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D40751021910C1C6007E327E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -298,7 +205,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -336,7 +243,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -357,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HorizontalTableView/HorizontalTableView-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalTableView/HorizontalTableView-Info.plist";
@@ -370,51 +278,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HorizontalTableView/HorizontalTableView-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalTableView/HorizontalTableView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D407510C1910C1C6007E327E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizontalTableView.app/HorizontalTableView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalTableView/HorizontalTableView-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HorizontalTableViewTests/HorizontalTableViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D407510D1910C1C6007E327E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizontalTableView.app/HorizontalTableView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalTableView/HorizontalTableView-Prefix.pch";
-				INFOPLIST_FILE = "HorizontalTableViewTests/HorizontalTableViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -435,14 +304,6 @@
 			buildConfigurations = (
 				D40751091910C1C6007E327E /* Debug */,
 				D407510A1910C1C6007E327E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D407510B1910C1C6007E327E /* Build configuration list for PBXNativeTarget "HorizontalTableViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D407510C1910C1C6007E327E /* Debug */,
-				D407510D1910C1C6007E327E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
