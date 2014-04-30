@@ -6,7 +6,6 @@ A subclass of UITableView, that scroll horizontal.
 See the code bellow:
 
 @implementation HZViewController
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -19,9 +18,7 @@ See the code bellow:
     [self.view addSubview:hzTableView];
 }
 
-
-#pragma mark--
-#pragma UITableViewDataSource
+UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 16;
 }
@@ -35,8 +32,7 @@ See the code bellow:
     return cell;
 }
 
-#pragma mark--
-#pragma UITableViewDelegate
+UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"--------->%d",indexPath.row);
 }
