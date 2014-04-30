@@ -41,14 +41,6 @@
     if (cell == nil) {
         cell = [[HZTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    UILabel * label = (UILabel*)[cell viewWithTag:-100];
-    [label removeFromSuperview];
-    UILabel * label1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 120, 200)];
-    [cell addSubview:label1];
-    label1.backgroundColor = [UIColor redColor];
-    label1.tag = -100;
-    label1.text = [NSString stringWithFormat:@"Cell %d", indexPath.row];
-    
     return cell;
 }
 
