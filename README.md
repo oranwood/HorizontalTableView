@@ -10,8 +10,3 @@ See the code bellow:
     hzTableView.delegate = self;
     hzTableView.columnWidth = self.view.frame.size.width;
     [self.view addSubview:hzTableView];
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
-- (HZTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
